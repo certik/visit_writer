@@ -73,17 +73,19 @@ you get:<br/>
 <img src="curv.png">
 </p>
 <p>
-And using the following code (it uses a <code>pcolor()</code> function just
-like in matplotlib, only it produces a vtk file):
+And using the following code (it uses a <code>pcolor()</code>, which works
+similar to <a
+    href="http://matplotlib.sourceforge.net/api/pyplot_api.html#matplotlib.pyplot.pcolor">matplotlib's pcolor()</a>, only it produces a vtk file, see also the
+source code of the <a
+    href="http://github.com/certik/visit_writer/blob/master/demo6.py">demo6.py</a> file, it's very simple):
 <code>
 <pre>
 python demo6.py
 paraview --data=pcolor.vtk
 </pre>
 </code>
-you get all of the images below, depending on what variable you visualize in
-paraview (notice also how simple the <a
-    href="http://github.com/certik/visit_writer/blob/master/demo6.py">demo6.py</a> file is):
+you get all of the images below (depending on what variable you visualize in
+paraview):
 <img src="p1.png">
 <img src="p2.png">
 <img src="p3.png">
