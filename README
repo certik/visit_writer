@@ -1,0 +1,17 @@
+Installation
+------------
+
+python setup.py install --home=~/usr
+
+Usage
+-----
+
+This should just work (doesn't require any dependencies):
+
+python demo3.py
+paraview --data=vwcurv3d.vtk
+
+This requires matplotlib:
+
+python demo6.py
+paraview --data=pcolor.vtk
