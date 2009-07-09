@@ -1,3 +1,11 @@
+Provides easy to use Python VTK writers and a matplotlib like pcolor()
+function.
+
+Homepage
+--------
+
+http://certik.github.com/visit_writer/
+
 Installation
 ------------
 
