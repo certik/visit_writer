@@ -52,10 +52,44 @@
       
     </div>
 
+    Provides easy to use Python VTK writers and a matplotlib like
+    <code>pcolor()</code>
+    function.<br/>
     <h2>Authors</h2>
-<p>Ondrej Certik (ondrej@certik.cz)<br/><br/>      </p>
-<h2>Contact</h2>
-<p> (ondrej@certik.cz)<br/>      </p>
+<p>Ondrej Certik (ondrej@certik.cz)<br/>
+Visit developers<br/><br/>      </p>
+<h2>Installation</h2>
+<p> See the README file.<br/>      </p>
+<h2>Demo</h2>
+<p> 
+Using the following code:
+<code>
+<pre>
+python demo3.py
+paraview --data=vwcurv3d.vtk
+</pre>
+</code>
+you get:<br/>
+<img src="curv.png">
+</p>
+<p>
+And using the following code (it uses a <code>pcolor()</code> function just
+like in matplotlib, only it produces a vtk file):
+<code>
+<pre>
+python demo6.py
+paraview --data=pcolor.vtk
+</pre>
+</code>
+you get all of the images below (depending what variable you visualize in
+paraview):
+<img src="p1.png">
+<img src="p2.png">
+<img src="p3.png">
+<img src="p4.png">
+<img src="p5.png">
+<img src="p6.png">
+<br/>      </p>
 
 
     <h2>Download</h2>
